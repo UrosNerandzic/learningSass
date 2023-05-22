@@ -6,8 +6,9 @@ $nav-font: $josefin;
 $nav-weight: $font-bold;
 $nav-link-hover: $green;
 header {
-    padding:20px 0;
-    background-color: $header-bg;
+    // padding:20px 0;
+    // background-color: $header-bg;
+    @include styleSection(20px, 20px, $header-bg);
     .branding {
         text-align: center;
         a {
